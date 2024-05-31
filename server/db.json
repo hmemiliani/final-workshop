@@ -1,4 +1,11 @@
 {
-    "users": [],
-    "tasks": []
+  "users": [
+    {
+      "id": "2af3",
+      "name": "Harold",
+      "email": "harold_medranoe@hotmail.com",
+      "password": "U2FsdGVkX19vrnGEbpUc9DVm+U3Yu/PoqdWRmNNPLrk="
+    }
+  ],
+  "tasks": []
 }
