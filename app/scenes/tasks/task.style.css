@@ -1,0 +1,91 @@
+.taskcontainer {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    background-color: #5f6163;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
+
+.taskInput {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.taskList {
+    margin-top: 20px;
+}
+
+.taskItem {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskName {
+    font-weight: bold;
+}
+
+.markDone {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.markDone:hover {
+    background-color: #218838;
+}

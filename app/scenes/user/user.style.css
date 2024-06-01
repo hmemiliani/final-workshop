@@ -1,0 +1,67 @@
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    background-color: #5f6163;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    margin: 20px 0;
+    color: white;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    position: absolute;
+    top: 60px;
+    border: 5px solid #5f6163;
+}
+
+.container {
+    background-color: white;
+    padding: 100px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+}
+
+.userInfo {
+    margin-top: 20px;
+}
+
+.userInfo h2 {
+    margin: 10px 0;
+}
+
+.userInfo p {
+    color: #555;
+}
+
+.changePasswordButton {
+    padding: 10px 20px;
+    background-color: #ffdd57;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.changePasswordButton:hover {
+    background-color: #ffcc00;
+}

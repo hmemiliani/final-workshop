@@ -5,7 +5,44 @@
       "name": "Harold",
       "email": "harold_medranoe@hotmail.com",
       "password": "U2FsdGVkX19vrnGEbpUc9DVm+U3Yu/PoqdWRmNNPLrk="
+    },
+    {
+      "id": "6360",
+      "name": "Amira",
+      "email": "amira@email.com",
+      "password": "U2FsdGVkX19FwKcnc32sfDe0VyIlCuw56F+JvuHxqqk="
     }
   ],
-  "tasks": []
+  "tasks": [
+    {
+      "id": "9b4d",
+      "name": "Tarea 1",
+      "priority": "low",
+      "deadline": "2024-06-02"
+    },
+    {
+      "id": "1cac",
+      "name": "Tarea 2",
+      "priority": "medium",
+      "deadline": "2024-06-03"
+    },
+    {
+      "id": "6e3d",
+      "name": "Tarea 3",
+      "priority": "top",
+      "deadline": "2024-06-04"
+    },
+    {
+      "id": "aa8a",
+      "name": "Tarea 5",
+      "priority": "low",
+      "deadline": "2024-06-11"
+    },
+    {
+      "id": "cdb2",
+      "name": "qweqdas",
+      "priority": "top",
+      "deadline": "2024-06-14"
+    }
+  ]
 }

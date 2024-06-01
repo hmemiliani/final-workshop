@@ -10,14 +10,32 @@
 
 .loginform {
     display: flex;
-    height: 300px;
+    height: 400px;
     width: 300px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    border: 1px solid #000;
-    border-radius: 50px;
+    border-radius: 100px;
     background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.loginform > .loginInput {
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+    padding: 3px;
+}
+
+.loginform > button {
+    height: 40px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+    font-size: 18px;
 }
 
