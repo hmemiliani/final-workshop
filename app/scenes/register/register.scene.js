@@ -6,12 +6,16 @@ import styles from './register.styles.css';
 export function RegisterScene() {
     const root = document.getElementById('root');
     root.innerHTML= `
-        <form class="${styles.form}">
-            <input type="text" placeholder="Nombre" autocomplete="namea"/>
-            <input type="email" placeholder="nombre@email.com" autocomplete="email"/>
-            <input type="password" placeholder="Contraseña" autocomplete="new-password"/>
-            <button type="submit">Register</button>
-        </form>
+        <div class="${styles.container}">
+            <form class="${styles.form}">
+                <h2>Register</h2>
+                <input type="text" placeholder="Nombre" autocomplete="namea"/>
+                <input type="email" placeholder="nombre@email.com" autocomplete="email"/>
+                <input type="password" placeholder="Contraseña" autocomplete="new-password"/>
+                <button type="submit">Register</button>
+                <button id="login-button">Login</button>
+            </form>
+        </div>
     `;
 
     //logic
@@ -27,6 +31,7 @@ export function RegisterScene() {
 
         if(!$nameHtml.value || !$emailHtml.value || !$passwordHtml.value){
             alert('Please fill all fields');
+            return;
         }
 
         //fetch
@@ -46,5 +51,9 @@ export function RegisterScene() {
             alert('User created successfully');
             navigateTo('/login')
         }
+    });
+    const loginButton = document.getElementById('login-button');
+    loginButton.addEventListener('click', () => {
+        navigateTo('/login');
     });
 }

@@ -30,6 +30,7 @@
     position: absolute;
     top: 60px;
     border: 5px solid #5f6163;
+    object-fit: cover;
 }
 
 .container {
@@ -55,7 +56,8 @@
 
 .changePasswordButton {
     padding: 10px 20px;
-    background-color: #ffdd57;
+    background-color: #5f6163;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -63,5 +65,5 @@
 }
 
 .changePasswordButton:hover {
-    background-color: #ffcc00;
+    background-color: #808080;
 }

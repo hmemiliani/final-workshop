@@ -22,6 +22,7 @@ const logout = `<button class="${styles.btn}" type="button" id="logout">Logout</
     const $logoutButton = root.querySelector('#logout');
     $logoutButton.addEventListener('click', () => {
         localStorage.removeItem('token');
+        localStorage.removeItem('userId');
         navigateTo('/login');
     });
 

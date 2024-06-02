@@ -7,42 +7,54 @@
       "password": "U2FsdGVkX19vrnGEbpUc9DVm+U3Yu/PoqdWRmNNPLrk="
     },
     {
-      "id": "6360",
-      "name": "Amira",
-      "email": "amira@email.com",
-      "password": "U2FsdGVkX19FwKcnc32sfDe0VyIlCuw56F+JvuHxqqk="
+      "id": "70ce",
+      "name": "unUsuario",
+      "email": "user@user.com",
+      "password": "U2FsdGVkX186M7nOLGnualva+vZZfoyxMwKL9bIHJX4="
     }
   ],
   "tasks": [
     {
-      "id": "9b4d",
-      "name": "Tarea 1",
-      "priority": "low",
-      "deadline": "2024-06-02"
-    },
-    {
-      "id": "1cac",
-      "name": "Tarea 2",
-      "priority": "medium",
-      "deadline": "2024-06-03"
-    },
-    {
-      "id": "6e3d",
-      "name": "Tarea 3",
+      "id": "f72a",
+      "userId": "2af3",
+      "name": "Harold Tarea 1",
       "priority": "top",
-      "deadline": "2024-06-04"
-    },
-    {
-      "id": "aa8a",
-      "name": "Tarea 5",
-      "priority": "low",
       "deadline": "2024-06-11"
     },
     {
-      "id": "cdb2",
-      "name": "qweqdas",
+      "id": "22c2",
+      "userId": "2af3",
+      "name": "Harold Tarea 2",
+      "priority": "medium",
+      "deadline": "2024-06-27"
+    },
+    {
+      "id": "0a5e",
+      "userId": "2af3",
+      "name": "Harold Tarea 3",
+      "priority": "low",
+      "deadline": "2024-06-27"
+    },
+    {
+      "id": "8d99",
+      "userId": "70ce",
+      "name": "User Tarea 1",
       "priority": "top",
-      "deadline": "2024-06-14"
+      "deadline": "2024-06-20"
+    },
+    {
+      "id": "32f4",
+      "userId": "70ce",
+      "name": "User Tarea 2",
+      "priority": "medium",
+      "deadline": "2024-06-26"
+    },
+    {
+      "id": "f19d",
+      "userId": "70ce",
+      "name": "User Tarea 3",
+      "priority": "top",
+      "deadline": "2024-06-26"
     }
   ]
 }

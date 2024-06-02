@@ -12,6 +12,7 @@ export function LoginScene() {
                 <input class="${styles.loginInput}" type="email" placeholder="nombre@email.com*" autocomplete="email"/>
                 <input class="${styles.loginInput}" type="password" placeholder="Password*" autocomplete="current-password"/>
                 <button type="submit">Login</button>
+                <button id="register-button">Register</button>
             </form>
         </div>
     `;
@@ -44,5 +45,10 @@ export function LoginScene() {
         } else {
             alert("Usuuario o contasena invalidos")
         }
+    });
+
+    const registerButton = document.getElementById('register-button');
+    registerButton.addEventListener('click', () => {
+        navigateTo('/register');
     });
 }
